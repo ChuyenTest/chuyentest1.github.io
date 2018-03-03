@@ -1,0 +1,39 @@
+// Variable overrides for css frameworks and libraries
+$font-size-base: 20px;
+$primary-font: 'Montserrat', sans-serif;
+$primary-color: #fff;
+$opacity: .8;
+
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xxs-max: $screen-xs-min - 1;
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;
+
+$link-color: #d0021b;
+$active-color: $link-color;
+$hover-color: $link-color;
+$placeholder-color: $hover-color;
+
+$line-height: 1.2;
+
+$white: $primary-color;
+$faded-red: #c63846;
+$scarlet: #d0021b;
+$greyish-brown: #4a4a4a;
+$lightblue: #60c3ef;
+$squash: #f5a623;
+$squash-80-two: rgba(245, 185, 35, 0.8);
+
+$aqua-marine-80: rgba(80, 227, 194, 0.8);
+$squash-80: rgba(245, 166, 35, 0.8);
+$lightblue-80: rgba(96, 195, 239, 0.8);
+
+$lightblue-50: rgba(96, 195, 239, 0.5);
+$dark-sky-blue: #4a90e2;
+$light-mustard: #fad961;
+$pumpkin-orange: #f78b1c;
+$shadow: rgba(0, 0, 0, 0.3) 

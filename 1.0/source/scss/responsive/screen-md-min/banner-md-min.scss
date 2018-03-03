@@ -1,0 +1,11 @@
+.banner-block {
+    .img-wrap {
+        position: relative;
+        img {
+            position: absolute;
+            right: -15px;
+            bottom: -370px;
+            max-width: inherit;
+        }
+    }
+}

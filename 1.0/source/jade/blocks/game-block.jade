@@ -1,0 +1,50 @@
+.scroll-effects.game-block
+	.container
+		h2.blue-txt.title HOW TO JOIN THE GAME
+		.content
+			.row
+				.col-md-6
+					.scroll-effects.item.blue-bg
+						p
+							b.red-txt Challenge mode: 
+							|Game performer
+						p
+							b.red-txt The contest platform:
+							|DeNA Battleship Challenge
+					.scroll-effects.item.yellow-bg
+						h3.title-item What we already have?
+						.caption
+							p 
+								b.red-txt A game engine, to call AI and show the decisions and results (video+audio)
+							p 
+								b.red-txt Service interface definition for AI service using HTTP.
+							ul.star-list
+								li Init game with ship arrangement decisions from AI
+								li Request {X,Y} position from AI each turn
+								li Feedback results
+					.scroll-effects.item.green-bg
+						h3.title-item How the contest happens:
+						.caption
+							p Everyone who interest can build team (at least 3 persons), and register to join with marketing team.
+							p Registered team needs name and register the technology that will be used.
+							p Each team has at least 2 weeks to implement the service.
+							p One meetup workshop will be held for all the teams to trial and improve the services.
+							
+				.col-md-6
+					.scroll-effects.item.green-bg.custome
+						h3.title-item How the game plays:
+						.caption
+							p A game engine server will be setup, and it need the access to all AI service.
+							p In the contest time, the game will be played automatically.
+							p The teams will be the watchers in the playing session.
+							p The results will be determined by game engine, in the view of watchers.
+					.scroll-effects.item.blue-bg.custome
+						h3.title-item What you can do?
+						.caption
+							p Build an application which serves HTTP requests, with our supplied I/F
+							p Let the game engine call to it during game play.
+							p Your application must be able to analyze situations
+							p Your application must be able to make decisions
+							p Your application has no bug, and processing time &lt;=10 seconds each turn
+							p You can use any algorithm for the application.
+							p You can use any AI services on the cloud, like Google Cloud Machine Learning

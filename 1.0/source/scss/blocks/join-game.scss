@@ -1,0 +1,12 @@
+.join-game-block {
+    padding: 35px 0;
+    background: $lightblue url('../images/upload/game_bg.png') no-repeat center bottom;
+    text-align: center;
+    .title {
+        font-size: 36px;
+        span {
+            display: block;
+            font-weight: normal;
+        }
+    }
+}

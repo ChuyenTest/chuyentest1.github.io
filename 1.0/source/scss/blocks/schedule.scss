@@ -1,0 +1,32 @@
+.schedule-block {
+	padding: 70px 0 116px;
+	.item {
+		margin-top: 55px;
+		text-align: center;
+		p {
+			position: relative;
+			margin-top: 40px;
+			padding-top: 30px;
+			&:before,
+			&:after {
+				position: absolute;
+			}
+			&:before {
+				content: "\f005";
+				font-family: FontAwesome;
+				top: 4px;
+				left: 50%;
+				margin-left: -10px;
+				color: $squash;
+			}
+			&:after {
+				content: '';
+				left: 0;
+				right: 0;
+				top: -20px;
+				height: 10px;
+				background-color: $squash;
+			}
+		}
+	}
+}

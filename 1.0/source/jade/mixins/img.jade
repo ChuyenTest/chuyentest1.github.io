@@ -1,0 +1,6 @@
+mixin img(alt, src)
+  - if (typeof(src) === 'undefined') src = 'images/transparent.png'
+     img(src="#{src}", alt="#{alt}")&attributes(attributes)
+
+mixin img-lazy-load(alt, dataSrc)
+  img(alt="#{alt}" data-original="#{dataSrc}" src="images/transparent.png" data-lazy-load)&attributes(attributes)

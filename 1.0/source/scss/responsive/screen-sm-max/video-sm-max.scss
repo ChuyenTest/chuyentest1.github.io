@@ -1,0 +1,10 @@
+.video-block {
+  padding-bottom: 430px;
+  .youtube-block {
+    position: relative;
+    iframe {
+      position: absolute;
+      z-index: 2;
+    }
+  }
+}

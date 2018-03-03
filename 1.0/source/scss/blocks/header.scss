@@ -1,0 +1,21 @@
+header {
+	.inner {
+		padding: 16px 0 14px;
+	}
+	&.sticky {
+		.inner {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 22;
+			background-color: $white;
+			transition: .2s;
+			box-shadow: $shadow 0px 0px 6px 0px;
+		}
+	}
+	.link {
+		display: block;
+		padding: 12px;
+	}
+}

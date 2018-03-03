@@ -1,0 +1,34 @@
+.judges-mentors-block {
+	padding: 97px 0 0;
+	.content {
+	}
+	.item {
+		position: relative;
+		margin-top: 100px;
+		padding-top: 190px;
+		border-radius: 15px;
+		.figure-img {
+			position: absolute;
+			top: -65px;
+			left: 50%;
+			margin-left: -122px;
+			width: 224px;
+			height: 224px;
+			border-radius: 50%;
+		}
+	}
+	.name {
+		padding: 0 10px;
+		text-align: center;
+		font-size: 22px;
+		.position {
+			font-style: italic;
+		}
+	}
+	.custome {
+		margin-top: 112px;
+	}
+	.description {
+		 padding: 0 50px 50px;
+	}
+}

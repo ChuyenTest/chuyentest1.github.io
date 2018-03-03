@@ -1,0 +1,127 @@
+a {
+  &:hover,
+  &:focus {
+	@include opacity($opacity);
+	text-decoration: none;
+  }
+}
+p {
+	margin-bottom: 24px;
+}
+.red-txt {
+	color: $scarlet;
+}
+.faded-red-txt {
+	color: $faded-red;
+}
+.gray-txt {
+	color: $greyish-brown;
+}
+.blue-txt {
+	color: $lightblue;
+}
+.blue-bg {
+	background-color: $lightblue-80;
+}
+.green-bg {
+	background-color: $aqua-marine-80;
+}
+.yellow-bg {
+	background-color: $squash-80;
+}
+.light-blue-bg {
+	background-color: $lightblue-50;
+}
+.dark-blue-bg {
+	background-color: $dark-sky-blue;
+}
+.link {
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+}
+.btn-1 {
+	position: relative;
+	margin-right: 90px;
+	padding: 12px 26px;
+	text-transform: uppercase;
+	&:hover {
+		color: $white;
+	}
+	&::after {
+		content: url('../images/upload/redo-arrow.png');
+		position: absolute;
+		top: 0;
+		right: -90px;
+		with: 50px;
+		height: 100%;
+		@extend %hvr-wobble-horizontal-hover-focus-active;
+	}
+}
+.white-btn {
+	background-color: $white;
+	border: 1px solid $scarlet;
+	color: $scarlet;
+	&:hover,
+	&:visited,
+	&:active {
+		color: $scarlet;
+	}
+}
+.red-btn {
+	background-color: $scarlet;
+	border: 1px solid $scarlet;
+	color: $white;
+	&:hover,
+	&:visited,
+	&:active {
+		color: $white;
+	}
+}
+.title-1 {
+	position: relative;
+	padding-bottom: 16px;
+	font-size: 48px;
+	text-align: center;
+	&:after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		margin-left: -35px;
+		width: 70px;
+		height: 10px;
+		background-color: $scarlet;
+	}
+}
+.title-2 {
+	text-align: center;
+	font-size: 36px;
+}
+.star-list {
+	li {
+		position: relative;
+		padding-left: 40px;
+		&:before {
+			font-family: FontAwesome;
+			content: "\f005";
+			position: absolute;
+			top: 0;
+			left: 0;
+			@extend %hvr-icon-pulse;
+		}
+		& + li {
+			margin-top: 25px;
+		}
+	}
+}
+.block-1 {
+	background-color: $squash-80-two;
+	text-align: center;
+	.title {
+		font-size: 36px;
+	}
+	.btn-1 {
+		margin-top: 22px;
+	}
+}

@@ -1,0 +1,19 @@
+.video-block {
+	padding: 50px 0 155px;
+	strong {
+		color: $greyish-brown;
+		font-size: 24px;
+		line-height: 45px;
+	}
+	.red-txt {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 35px;
+	}
+	.youtube-block {
+		iframe {
+			width: 100%;
+			height: 370px;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.competition-block {
+    position: relative;
+    padding: 10px 0 16px;
+    &:before,
+    &:after {
+        position: absolute;
+    }
+    &:before {
+        content: url('../images/upload/competition-bg.png');
+        top: -350px;
+        right: 0;
+        z-index: 1;
+    }
+    &:after {
+        content: url('../images/upload/competition-bg-left.png');
+        top: 730px;
+        left: 0;
+    }
+}

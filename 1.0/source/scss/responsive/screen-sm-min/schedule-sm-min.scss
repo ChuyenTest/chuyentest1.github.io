@@ -1,0 +1,10 @@
+.schedule-block {
+    .item {
+        p {
+            &:after {
+                left: -15px;
+                right: -15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.fair-play-team-block {
+	position: relative;
+	padding: 16px 35px;
+	&:before {
+		content: url('../images/upload/fair-play-team-bg.png');
+		position: absolute;
+		top: -205px;
+		right: 0;
+	}
+}

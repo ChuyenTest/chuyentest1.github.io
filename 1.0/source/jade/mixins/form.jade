@@ -1,0 +1,19 @@
+mixin input(objs)
+  - if(typeof(objs.value)==='undefined') objs.value = ''
+  - if(typeof(objs.id) === 'undefined') objs.id = objs.name
+  input(name=objs.name, id=objs.id, type=objs.type, value=objs.value, placeholder=objs.placeholder, maxlength=objs.maxLength)&attributes(attributes)
+  if block
+    block
+
+mixin input-label-group(objs)
+  - if(typeof(objs.value)==='undefined') objs.value = ''
+  - if(typeof(objs.id) === 'undefined') objs.id = objs.name
+  input(name=objs.name, id=objs.id, type=objs.type, value=objs.value, placeholder=objs.placeholder, maxlength=objs.maxLength)&attributes(attributes)
+  label(for = objs.id)!=objs.text
+  if block
+    block
+
+mixin button(name, type, text)
+  button(name=name, id=name, type=type)&attributes(attributes)!=text
+    if block
+      block
